@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ManagedCudaNet5</id>
+    <version>11.1.1</version>
+    <title>ManagedCudaNet5</title>
+    <authors>DeltaEngine</authors>
+    <owners>DeltaEngine</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">LGPL-2.1-only</license>
+    <licenseUrl>https://licenses.nuget.org/LGPL-2.1-only</licenseUrl>
+    <projectUrl>https://kunzmi.github.io/managedCuda/</projectUrl>
+    <iconUrl>https://api.nuget.org/v3-flatcontainer/swigged.cuda/9.2148.3/icon</iconUrl>
+    <description>Based on ManagedCuda-11 + CudaBlas + NVRTC, which aims an easy integration of NVidia's CUDA in .net applications written in C#, Visual Basic or any other .net language. This package includes only the core managedCuda library, no additional CUDA libraries and is platform independent (Windows/Linux/.net 5.0).</description>
+    <copyright>Michael Kunz</copyright>
+    <language>en-US</language>
+    <tags>cuda managedCuda gpu</tags>
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+  </metadata>
+</package>

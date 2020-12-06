@@ -7,8 +7,10 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
-    <Platforms>AnyCPU;x64</Platforms>
+    <TargetFramework>net5.0</TargetFramework>
+    <Platforms>x64</Platforms>
+    <AssemblyName>CudaRand</AssemblyName>
+    <RootNamespace>CudaRand</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

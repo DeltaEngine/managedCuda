@@ -52,3 +52,13 @@ Temporary Items
 # Files containing private data
 NuGetPackage.ps1
 NuGetPush.ps1
+.vs/ManagedCUDA.netCore/v16/.suo
+*.v2
+bin/
+obj/
+Debug/
+Released/
+nuget/lib/
+*.nupkg
+*.exe
+*.user

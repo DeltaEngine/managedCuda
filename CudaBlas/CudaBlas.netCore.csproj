@@ -7,8 +7,13 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
-    <Platforms>AnyCPU;x64</Platforms>
+    <TargetFramework>net5.0</TargetFramework>
+    <Platforms>x64</Platforms>
+    <AssemblyName>CudaBlas</AssemblyName>
+    <RootNamespace>CudaBlas</RootNamespace>
+    <Version>11.1.1</Version>
+    <AssemblyVersion>11.01.1</AssemblyVersion>
+    <FileVersion>11.1.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
